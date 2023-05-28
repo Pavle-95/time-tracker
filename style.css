@@ -1,1 +1,107 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Porcelain";
+  src: url(./font/Porcelain.ttf);
+}
+.container {
+  margin: 0px auto;
+  max-width: 1320px;
+  height: auto;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+header .nav-holder {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .nav-holder ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .nav-holder ul li a {
+  color: rgb(93, 93, 223);
+  font-family: "Porcelain", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  text-decoration: none;
+}
+header .nav-holder a {
+  max-width: 150px;
+}
+header .nav-holder a img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+header .nav-holder .burger-menu {
+  display: none;
+}
+
+.home-hero {
+  padding: 160px 20px 80px;
+  margin-top: -90px;
+  background: linear-gradient(90deg, rgb(241, 249, 252) 0%, rgba(255, 255, 255, 0.8099614846) 70%);
+}
+.home-hero article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.home-hero article .hero-content {
+  flex: 0 0 47%;
+  text-align: center;
+}
+.home-hero article .hero-content h1 {
+  font-family: "Porcelain", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;
+  color: rgb(34, 34, 153);
+}
+.home-hero article .hero-content p {
+  color: rgb(93, 93, 223);
+  font-family: "Porcelain", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 300;
+  margin: 30px 0px;
+}
+.home-hero article .hero-content .btn-1 {
+  padding: 15px 40px;
+  border-radius: 10px;
+  border: none;
+  letter-spacing: 2px;
+  background-color: white;
+  color: rgb(34, 34, 153);
+  font-family: "Porcelain", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 5px 5px 4px 0px rgba(34, 34, 153, 0.158);
+}
+.home-hero article .hero-img {
+  flex: 0 0 47%;
+}
+.home-hero article .hero-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
